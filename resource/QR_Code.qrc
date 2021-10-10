@@ -1,0 +1,7 @@
+<RCC>
+  <qresource prefix="newPrefix">
+    <file>afdian.png</file>
+    <file>LiveMusic.png</file>
+    <file>QR.png</file>
+  </qresource>
+</RCC>
