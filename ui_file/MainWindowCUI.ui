@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>417</width>
+    <height>272</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>弹幕点歌-LiveMusic</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <layout class="QHBoxLayout" name="horizontalLayout">
+      <item>
+       <widget class="QPushButton" name="startB">
+        <property name="text">
+         <string>开始统计</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="playB">
+        <property name="text">
+         <string>播放/暂停</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="nextMusicB">
+        <property name="text">
+         <string>下一首</string>
+        </property>
+        <property name="autoDefault">
+         <bool>false</bool>
+        </property>
+        <property name="default">
+         <bool>false</bool>
+        </property>
+        <property name="flat">
+         <bool>false</bool>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="clearB">
+        <property name="text">
+         <string>清空播放列表</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <widget class="QLabel" name="nowPlayLabel">
+      <property name="font">
+       <font>
+        <family>微软雅黑</family>
+        <pointsize>10</pointsize>
+        <weight>50</weight>
+        <bold>false</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>当前无歌曲</string>
+      </property>
+      <property name="textFormat">
+       <enum>Qt::AutoText</enum>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+      </property>
+      <property name="wordWrap">
+       <bool>false</bool>
+      </property>
+      <property name="textInteractionFlags">
+       <set>Qt::LinksAccessibleByMouse|Qt::TextSelectableByMouse</set>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QListWidget" name="listWidget"/>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>417</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menu">
+    <property name="title">
+     <string>设置</string>
+    </property>
+    <widget class="QMenu" name="menu_2">
+     <property name="title">
+      <string>显示</string>
+     </property>
+     <addaction name="actionLive"/>
+     <addaction name="actionSetDisplay"/>
+    </widget>
+    <widget class="QMenu" name="menu_4">
+     <property name="title">
+      <string>黑名单</string>
+     </property>
+     <addaction name="actionUser"/>
+     <addaction name="actionMusic"/>
+    </widget>
+    <addaction name="actionVol"/>
+    <addaction name="menu_2"/>
+    <addaction name="menu_4"/>
+    <addaction name="actionColdDown"/>
+   </widget>
+   <widget class="QMenu" name="menu_3">
+    <property name="title">
+     <string>帮助</string>
+    </property>
+    <addaction name="actionHowToUse"/>
+    <addaction name="actionSupport"/>
+    <addaction name="actionAbout"/>
+   </widget>
+   <addaction name="menu"/>
+   <addaction name="menu_3"/>
+  </widget>
+  <action name="actionLive">
+   <property name="text">
+    <string>在直播时显示歌名</string>
+   </property>
+  </action>
+  <action name="actionLiveDisplay">
+   <property name="text">
+    <string>设置</string>
+   </property>
+  </action>
+  <action name="actionSetDisplay">
+   <property name="text">
+    <string>显示设置</string>
+   </property>
+  </action>
+  <action name="actionHowToUse">
+   <property name="text">
+    <string>如何使用</string>
+   </property>
+  </action>
+  <action name="actionAbout">
+   <property name="text">
+    <string>关于Live Music</string>
+   </property>
+  </action>
+  <action name="actionColdDown">
+   <property name="text">
+    <string>用户冷却时间</string>
+   </property>
+  </action>
+  <action name="actionUser">
+   <property name="text">
+    <string>用户</string>
+   </property>
+  </action>
+  <action name="actionMusic">
+   <property name="text">
+    <string>歌曲</string>
+   </property>
+  </action>
+  <action name="actionSupport">
+   <property name="text">
+    <string>支持作者</string>
+   </property>
+  </action>
+  <action name="actionVol">
+   <property name="text">
+    <string>音量</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
