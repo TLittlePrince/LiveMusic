@@ -1,0 +1,54 @@
+Traceback (most recent call last):
+  File "C:\Users\smmsa\Desktop\py\liveMusic\liveMusic\main.py", line 163, in load_music
+    file_name = cloudMusicApi.search(music_info[0], music_info[1])
+  File "C:\Users\smmsa\Desktop\py\liveMusic\liveMusic\cloudMusicApi.py", line 122, in search
+    music_list = music_list['result']['songs']
+KeyError: 'songs'
+Traceback (most recent call last):
+  File "E:\PycharmProject\liveMusic (2)\liveMusic\liveMusic\main.py", line 164, in load_music
+    file_name = cloudMusicApi.search(music_info[0], music_info[1])
+  File "E:\PycharmProject\liveMusic (2)\liveMusic\liveMusic\cloudMusicApi.py", line 158, in search
+    music_id = music_list[0]['id']
+KeyError: 0
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\PycharmProject\liveMusic (2)\liveMusic\liveMusic\main.py", line 167, in load_music
+    file_name = cloudMusicApi.search(music_info[0], music_info[1])
+  File "E:\PycharmProject\liveMusic (2)\liveMusic\liveMusic\cloudMusicApi.py", line 158, in search
+    music_id = music_list[0]['id']
+KeyError: 0
+Traceback (most recent call last):
+  File "E:/PycharmProject/liveMusic (2)/liveMusic/liveMusic/main.py", line 164, in load_music
+    file_name = cloudMusicApi.search(music_info[0], music_info[1])
+  File "E:\PycharmProject\liveMusic (2)\liveMusic\liveMusic\cloudMusicApi.py", line 128, in search
+    music_list = music_list['result']['songs']
+KeyError: 'songs'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:/PycharmProject/liveMusic (2)/liveMusic/liveMusic/main.py", line 167, in load_music
+    file_name = cloudMusicApi.search(music_info[0], music_info[1])
+  File "E:\PycharmProject\liveMusic (2)\liveMusic\liveMusic\cloudMusicApi.py", line 128, in search
+    music_list = music_list['result']['songs']
+KeyError: 'songs'
+Traceback (most recent call last):
+  File "E:\PycharmProject\liveMusic (2)\liveMusic\liveMusic\main.py", line 164, in load_music
+    file_name = cloudMusicApi.search(music_info[0], music_info[1])
+  File "E:\PycharmProject\liveMusic (2)\liveMusic\liveMusic\cloudMusicApi.py", line 134, in search
+    if sug[0] == music_dict['name']:
+IndexError: list index out of range
+Traceback (most recent call last):
+  File "E:\PycharmProject\liveMusic (2)\liveMusic\liveMusic\main.py", line 164, in load_music
+    file_name = cloudMusicApi.search(music_info[0], music_info[1])
+  File "E:\PycharmProject\liveMusic (2)\liveMusic\liveMusic\cloudMusicApi.py", line 134, in search
+    if sug[0] == music_dict['name']:
+IndexError: list index out of range
+Traceback (most recent call last):
+  File "E:\PycharmProject\liveMusic (2)\liveMusic\liveMusic\main.py", line 164, in load_music
+    file_name = cloudMusicApi.search(music_info[0], music_info[1])
+  File "E:\PycharmProject\liveMusic (2)\liveMusic\liveMusic\cloudMusicApi.py", line 134, in search
+    if sug[0] == music_dict['name']:
+IndexError: list index out of range
