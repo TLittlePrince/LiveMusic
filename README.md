@@ -1,3 +1,5 @@
+# 注意
+此工具现已移动到B站饭贩商店并持续维护：https://play-live.bilibili.com/details/1649539569084
 # LiveMusic
 在线曲库的B站直播弹幕点歌机
 ## 功能
